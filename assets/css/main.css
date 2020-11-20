@@ -1564,27 +1564,3 @@ textarea {
     z-index: 1;
     bottom: 0;
 }
-
-/* ..........Responsive............ */
-
-
-
-@media only screen and (max-width: 576px) {
-
-    /* home */
-
-    .tag-work{width: 300px;}
-
-   ul.tag-work{margin: auto;}
-
-   /* work */
-
-   
-
-   
- 
-    
-    
-    
-    }
-
