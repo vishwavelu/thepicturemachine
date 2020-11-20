@@ -6,6 +6,13 @@
 
     .bg video {
         max-height: auto;
+        /* max-width: 100%; */
+        margin: auto;
+        position: absolute;
+    }
+
+    .bg .video video{
+        max-height: auto;
         max-width: 100%;
         margin: auto;
         position: absolute;
@@ -124,7 +131,13 @@ height: auto;} */
 
 /* video */
 
-video{position: relative;width: 100%;height: auto;}
+/* .project-img.project-0.video{position: relative;width: 100%;height: auto;} */
+
+
+.videoBG {
+    width: 100%;
+    height: 100%;
+
 
 
 
@@ -227,6 +240,18 @@ video{position: relative;width: 100%;height: auto;}
 
     .about-us-text p {
         margin-top: 50px;
+
+    
+    }
+
+    @media (min-aspect-ratio:16/9){
+        .videoBG{width: 100%;
+        height: auto;}
+    }
+    
+    @media (max-aspect-ratio:16/9){
+        .videoBG{width: auto;
+        height: 100%;}
     }
 }
 
@@ -267,6 +292,8 @@ video{position: relative;width: 100%;height: auto;}
         opacity: 1;
         transition: all 0.2s ease;
     }
+
+    
  
 
 }
