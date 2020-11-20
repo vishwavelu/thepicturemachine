@@ -4,9 +4,9 @@
         width: 100%;
     }
 
-    .bg img {
-        max-height: 100%;
-        max-width: auto;
+    .bg video {
+        max-height: auto;
+        max-width: 100%;
         margin: auto;
         position: absolute;
     }
@@ -124,11 +124,9 @@ height: auto;} */
 
 /* video */
 
+video{position: relative;width: 100%;height: auto;}
 
-/* video.videoBG.port {
-    width: 100px;
-    height: auto;
-} */
+
 
 
 
