@@ -736,7 +736,11 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
     background: url('assets/img/poster.png') no-repeat;
 }
 
-
+.para{
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
 .project-6 {
     background: url('assets/img/poster.png') no-repeat;
 }
