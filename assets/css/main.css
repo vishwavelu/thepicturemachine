@@ -791,6 +791,7 @@ body {
 
 .head-text {
     display: block;
+    text-shadow: 2px 2px #0F6970;
 }
 
 .tag-head {
