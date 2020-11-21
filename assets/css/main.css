@@ -1142,6 +1142,8 @@ button {
     font-style: italic;
 }
 
+
+
 .dash {
     height: 2px;
     width: 50px;
@@ -1571,7 +1573,28 @@ textarea {
     z-index: 1;
     bottom: 0;
 }
-
+@media (min-width: 1400px) and (max-width: 3000px)
+{
+    .abouttitle{
+        position: absolute;
+    transform: translate(0, -400%)!important;
+    /* margin: 0 auto; */
+    top: 0px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1400px){
+.abouttitle{
+    position: absolute;
+transform: translate(0, -300%)!important;
+/* margin: 0 auto; */
+top: 0px;
+}
+}
+.title11{
+position: relative;
+    display: flex;
+    justify-content: center;
+}
 .over-3-border {
     pointer-events: none;
     position: absolute;
