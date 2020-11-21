@@ -27,8 +27,8 @@
         transform: scale(0.8);
     }
 
-    .copyrightt,
-    .copyright {
+    .copyrightt
+     {
         display: none;
     }
 }

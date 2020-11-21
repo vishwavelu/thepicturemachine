@@ -574,8 +574,8 @@ a:hover {
 }
 
 /* copyright */
-.copyrightt,
-.copyright {
+.copyrightt
+ {
     z-index: 99;
     position: fixed;
     bottom: 20px;
@@ -583,8 +583,8 @@ a:hover {
 }
 
 
-.copyrightt p,
-.copyright p {
+.copyrightt p
+{
     margin: 0;
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -693,6 +693,12 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 /* ..................... */
 
 .title{margin-top: 100px;}
+
+/* .............. */
+
+@media (orientation: portrait){
+    .copyrightt{display:none;}
+}
 
 /* .................. */
 
