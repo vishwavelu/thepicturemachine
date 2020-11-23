@@ -700,6 +700,10 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
     .copyrightt{display:none;}
 }
 
+/* ..................... */
+
+.head-text{text-shadow: 3px 3px #0F6970;}
+
 /* .................. */
 
 .project-img {
@@ -1622,4 +1626,6 @@ position: relative;
 
 @media only screen and (max-width: 650px) {
     .tophead .fontt{font-size: 16px;line-height: normal;}
+
+    .head-text{text-shadow: 1px 1px #0F6970;}
 }
