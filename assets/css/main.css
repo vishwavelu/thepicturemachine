@@ -563,6 +563,8 @@ a:hover {
     transition: all 0.2s ease;
 }
 
+
+
 .social a:hover {
     /* opacity: 0.5; */
     color: #1D9CB3;
@@ -703,6 +705,17 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 /* ..................... */
 
 .head-text{text-shadow: 3px 3px #0F6970;}
+
+/* ......................... */
+
+.copyrightt{transition: all 0.5s ease;}
+
+/* .copyrightt a{
+    transition: all 0.2s ease;
+transition-duration:500ms;
+}
+
+.copyrightt a:hover{color: #1D9CB3;position: relative;right: 10px;}   */
 
 /* .................. */
 
