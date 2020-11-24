@@ -475,7 +475,8 @@ ul {
 } */
 
 .menu-link:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    color: #EE5A4D;
 }
 
 .menu-link.active {
@@ -559,7 +560,7 @@ a:hover {
 .social a {
     font-size: 14px;
     color: #fff;
-    opacity: 1;
+    opacity: 75%;
     transition: all 0.2s ease;
 }
 
@@ -567,7 +568,8 @@ a:hover {
 
 .social a:hover {
     /* opacity: 0.5; */
-    color: #1D9CB3;
+    color: #EE5A4D;
+    opacity: 100%;
 }
 
 .c-magnetic .span {
@@ -757,6 +759,7 @@ transition-duration:500ms;
     font-size: 12px;
     font-weight: normal;
     color: white;
+    opacity: 75%;
 }
 .project-6 {
     background: url('assets/img/poster.png') no-repeat;
@@ -1153,7 +1156,7 @@ button {
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
     letter-spacing: 2px;
     font-style: italic;
@@ -1362,7 +1365,7 @@ p.author-text {
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -1563,7 +1566,7 @@ textarea {
     width: 100%;
     top: 0;
     left: 0;
-    border: 10px solid #fff;
+    border: 6px solid #fff;
     z-index: 99999;
 }
 

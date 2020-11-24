@@ -87,10 +87,10 @@ body {
     transition-delay: 1.2s;
 }
 
-.social ul li {
+/* .social ul li {
     display: block;
     margin: 15px 0;
-}
+} */
 /* Animation sroll */
 .c-scroll-icon {
     pointer-events: none;
