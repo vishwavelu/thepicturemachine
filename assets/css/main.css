@@ -712,12 +712,11 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 
 .copyrightt{transition: all 0.5s ease;}
 
-/* .copyrightt a{
-    transition: all 0.2s ease;
-transition-duration:500ms;
-}
 
-.copyrightt a:hover{color: #1D9CB3;position: relative;right: 10px;}   */
+
+video {
+  object-fit: cover;
+}
 
 /* .................. */
 
@@ -1646,5 +1645,7 @@ position: relative;
     .head-text{text-shadow: 1px 1px #0F6970;}
 
     /* span.head-text.head-textt{height: 100px;} */
+
+    .overlay-bg .overlayy video{display:none;}
 
 }
