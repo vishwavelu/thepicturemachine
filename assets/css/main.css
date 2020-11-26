@@ -714,9 +714,7 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 
 
 
-video {
-  object-fit: cover;
-}
+
 
 /* .................. */
 
@@ -1653,4 +1651,8 @@ position: relative;
 
 @media only screen and (min-width: 650px){
     .project-img.project-0 video.BGGG{display:none;}
+
+    video {
+        object-fit: cover;
+      }
 }
