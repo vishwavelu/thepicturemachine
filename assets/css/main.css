@@ -1646,6 +1646,11 @@ position: relative;
 
     /* span.head-text.head-textt{height: 100px;} */
 
-    .overlay-bg .overlayy video{display:none;}
+    .project-img.project-0 video.BGG{display:none;}
 
+
+}
+
+@media only screen and (min-width: 650px){
+    .project-img.project-0 video.BGGG{display:none;}
 }
