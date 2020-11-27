@@ -223,7 +223,8 @@ Author              : Cingunt-Themes
     /* Legacy iOS */
   }
   
-  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900,900i');
+  /* @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900,900i'); */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
 
 /*preloader */
 #preloader {
@@ -819,7 +820,7 @@ body {
     position: relative;
     overflow: hidden;
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'ralway';
     font-weight: 900;
     font-size: 60px;
     height: 80px;
