@@ -456,14 +456,14 @@ ul {
 }
 
 .menu-link {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    /* font-style: italic; */
     display: inline-block;
     text-decoration: none;
     color: #fff;
     opacity: 1;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 5px 0;
     padding: 0 10px;
     overflow: hidden;
@@ -820,14 +820,14 @@ body {
     position: relative;
     overflow: hidden;
     color: #fff;
-    font-family: 'ralway';
-    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 60px;
     height: 80px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 0;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .head-text {
@@ -1143,10 +1143,10 @@ button {
 
 .about-us-text h3 {
     font-size: 40px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
-    font-weight: 900;
-    font-style: italic;
+    font-weight: 700;
+    /* font-style: italic; */
 }
 
 .about-us-text p {
@@ -1158,12 +1158,12 @@ button {
 
 .main-title h1 {
     color: #fff;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
     margin: 0;
     letter-spacing: 2px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 
@@ -1192,10 +1192,10 @@ button {
    ========================================================================== */
 
 .title-content h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    font-style: italic;
-    font-weight: 900;
+    /* font-style: italic; */
+    font-weight: 700;
     color: #fff;
 }
 
@@ -1366,11 +1366,11 @@ p.author-text {
 }
 
 .next-page h3 a {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 50px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .next-page span:hover {
