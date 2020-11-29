@@ -1590,7 +1590,13 @@ position: relative;
 
     .backk{display: none;}
 
+    .closee{
+        /* display: none; */ 
+    width: 30px;
 
+    }
+
+ 
 }
 
 @media only screen and (min-width: 650px){
