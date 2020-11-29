@@ -198,10 +198,12 @@ height: auto;} */
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1499.98px){ .title-work h2 {
-    font-size: 42px;
+@media (min-width: 1200px) and (max-width: 1499.98px){ 
+    .title-work h2 {font-size: 42px;}
+
     
-}}
+
+}
 
 
 /* // Medium devices (tablets, 768px and up) */

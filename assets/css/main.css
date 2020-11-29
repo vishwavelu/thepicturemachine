@@ -658,79 +658,7 @@ body {
 }
 /* .................. */
 
-/* .videoBG{position: fixed;
-z-index:-1;}  */
 
-@media (min-aspect-ratio:16/9){
-    .videoBG{width: 100%;
-    height: auto;}
-}
-
-@media (max-aspect-ratio:16/9){
-    .videoBG{width: 100%;
-    height: 100%;}
-}
-
-/* .................... */
-
-@media (min-aspect-ratio:16/9){
-    .BGG{width: 100%;
-    height: auto;}
-}
-
-@media (max-aspect-ratio:16/9){
-    .BGG{width: auto;
-    height: 100%;}
-}
-
-
-/* .................. */
-
-.tag-head.tag-head2{width: 600px;}
-
-/* ............... */
-
-.tophead span{font-size: 40px;
-line-height: 2.6;}
-
-/* .............. */
-
-.mt-m.lh{line-height:1.6;}
-
-/* ................... */
-
-h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
-
-/* ..................... */
-
-.title{margin-top: 100px;}
-
-/* .............. */
-
-@media (orientation: portrait){
-    .copyrightt{display:none;}
-}
-
-/* ..................... */
-
-.head-text{text-shadow: 3px 3px #0F6970;}
-
-/* ......................... */
-
-.copyrightt{transition: all 0.5s ease;}
-
-/* ........................ */
-
-i.ii{
-    display: inline-block;
-  border-radius: 50%;
-  border: 2px solid gray;
-  padding: 0.6em 0.75em;
-  }
-
-
-
-/* .................. */
 
 .project-img {
     height: 100%;
@@ -1728,3 +1656,96 @@ position: relative;
       transform: translateY(-15px);
     }
   }
+
+  /* ....................... */
+
+  /* .videoBG{position: fixed;
+z-index:-1;}  */
+
+@media (min-aspect-ratio:16/9){
+    .videoBG{width: 100%;
+    height: auto;}
+}
+
+@media (max-aspect-ratio:16/9){
+    .videoBG{width: 100%;
+    height: 100%;}
+}
+
+/* .................... */
+
+@media (min-aspect-ratio:16/9){
+    .BGG{width: 100%;
+    height: auto;}
+}
+
+@media (max-aspect-ratio:16/9){
+    .BGG{width: auto;
+    height: 100%;}
+}
+
+
+/* .................. */
+
+.tag-head.tag-head2{width: 600px;}
+
+/* ............... */
+
+.tophead span{font-size: 40px;
+line-height: 2.6;}
+
+/* .............. */
+
+.mt-m.lh{line-height:1.6;}
+
+/* ................... */
+
+h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
+
+/* ..................... */
+
+.title{margin-top: 100px;}
+
+/* .............. */
+
+@media (orientation: portrait){
+    .copyrightt{display:none;}
+}
+
+/* ..................... */
+
+.head-text{text-shadow: 3px 3px #0F6970;}
+
+/* ......................... */
+
+.copyrightt{transition: all 0.5s ease;}
+
+/* ........................ */
+
+i.ii{
+    display: inline-block;
+  border-radius: 50%;
+  border: 2px solid gray;
+  padding: 0.6em 0.75em;
+  }
+
+
+
+/* .................. */
+
+.col-lg-12.mt-m.mb-20.sep{padding-top: 100px;}
+
+/* ......................... */
+
+.closee{opacity: 75%;
+    transition: all .3s ease;
+    position: absolute;
+    top: 110px;
+     right:25px; 
+     color: #fff; 
+     /* font-size: 50px; */
+     z-index: 10;
+     width: 40px;
+}
+
+.closee:hover {opacity: 100%;}
