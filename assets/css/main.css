@@ -1728,6 +1728,8 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 
 /* ........................ */
 
+/* back arrow buttons */
+
 i.ii{
     display: inline-block;
   border-radius: 50%;
@@ -1735,7 +1737,16 @@ i.ii{
   padding: 0.6em 0.75em;
   }
 
+  i.ii2{
+    display: inline-block;
+  border-radius: 50%;
+  border: 2px solid gray;
+  padding: 0.6em 0.8em;
+  }
 
+.backk{position: fixed; left: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;}
+
+.backkk{position: fixed; right: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;}
 
 /* .................. */
 
