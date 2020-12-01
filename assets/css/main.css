@@ -592,6 +592,7 @@ left: 50%;}
     position: fixed;
     bottom: 20px;
     right: 30px;
+    /* margin-bottom:12px; */
 }
 
 
@@ -1779,4 +1780,15 @@ i.ii{
 /* ................... */
 
 .sidee{width: 160px; border-radius: 6px;overflow: hidden;}
+
+/* ................. */
+
+i.so {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.6em 0.82em;
+    /* background-color: #888; */
+    border: 2px solid #fff;
+  
+  }
 

@@ -394,3 +394,18 @@ function hoverVideo(e) {
 function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
+
+// ............figure.
+var muted = true
+function muteVideo(){
+
+    var video = document.getElementById("home-video")
+    if(muted){
+        video.muted = false
+        muted = false
+    }
+    else{
+        video.muted = true
+        muted = true
+    }
+}
