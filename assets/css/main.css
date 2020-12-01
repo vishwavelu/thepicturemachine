@@ -1602,6 +1602,8 @@ position: relative;
     video.videoB{width: 100%;}
 
     .head-text.head-textt{text-shadow: 1px 1px #0F6970;}
+
+    .sound{display: none;}
  
 }
 
@@ -1611,6 +1613,9 @@ position: relative;
     video {
         object-fit: cover;
       }
+
+      
+
 }
 
 /* arrow animation */
