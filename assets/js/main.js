@@ -398,14 +398,16 @@ function hideVideo(e) {
 // ............figure.
 var muted = true
 function muteVideo(){
-
+ var muteImage = document.getElementById("mute-icon")
     var video = document.getElementById("home-video")
     if(muted){
         video.muted = false
+        muteImage.src = "../assets/img/mute-02.svg"
         muted = false
     }
     else{
         video.muted = true
+        muteImage.src = "../assets/img/mute-01.svg"
         muted = true
     }
 }
