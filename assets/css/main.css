@@ -1599,6 +1599,8 @@ position: relative;
     }
 
     video.videoB{width: 100%;}
+
+    .head-text.head-textt{text-shadow: 1px 1px #0F6970;}
  
 }
 
@@ -1668,6 +1670,10 @@ position: relative;
 
   /* ....................... */
 
+  /* home */
+
+  
+
   /* .videoBG{position: fixed;
 z-index:-1;}  */
 
@@ -1723,7 +1729,7 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 
 /* ..................... */
 
-.head-text{text-shadow: 3px 3px #0F6970;}
+
 
 /* ......................... */
 
@@ -1769,3 +1775,8 @@ i.ii{
 }
 
 .closee:hover {opacity: 100%;}
+
+/* ................... */
+
+.sidee{width: 160px; border-radius: 6px;overflow: hidden;}
+
