@@ -1097,7 +1097,7 @@ button {
     color: #fff;
     font-family: 'Khula', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
     letter-spacing: 2px;
     /* font-style: italic; */
@@ -1538,7 +1538,7 @@ textarea {
 {
     .abouttitle{
         position: absolute;
-    transform: translate(0, -400%)!important;
+    transform: translate(0, -500%)!important;
     /* margin: 0 auto; */
     top: 0px;
     }
@@ -1800,13 +1800,7 @@ i.ii{
 /* sound */
 
 .sound{
-    font-size: 24px;
-     position: fixed; 
-     top: 34px; 
-     z-index: 9;
-     width: 100%; 
-     color: #fff;
-    cursor: pointer;}
+    width: 100%; position: fixed; z-index: 9; top: 36px; cursor: pointer;}
 
 .mic{
     position: absolute; 

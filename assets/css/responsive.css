@@ -224,6 +224,15 @@
 @media (min-width: 1200px) and (max-width: 1500px){
     .row.roww{width: 80%;
     margin: auto;}
+
+    .main-title h1{font-size: 50px;}
+
+    .abouttitle{
+        position: absolute;
+    transform: translate(0, -400%)!important;
+    /* margin: 0 auto; */
+    top: 0px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 3000px) {

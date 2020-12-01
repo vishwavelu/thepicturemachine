@@ -203,7 +203,7 @@ height: auto;} */
 @media (min-width: 1200px) and (max-width: 1499.98px){ 
     .title-work h2 {font-size: 42px;}
 
-    .sound{top: 28px; }
+    .sound{top: 32px; }
     
 }
 
@@ -211,7 +211,7 @@ height: auto;} */
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1199.98px) {
 
-    .sound{top: 27px; }
+    .sound{top: 32px; }
 
 
     .title-work {
