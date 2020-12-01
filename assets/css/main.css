@@ -1805,7 +1805,8 @@ i.ii{
      top: 34px; 
      z-index: 9;
      width: 100%; 
-     color: #fff;}
+     color: #fff;
+    cursor: pointer;}
 
 .mic{
     position: absolute; 
