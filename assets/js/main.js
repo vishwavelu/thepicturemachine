@@ -402,12 +402,12 @@ function muteVideo(){
     var video = document.getElementById("home-video")
     if(muted){
         video.muted = false
-        muteImage.src = "../assets/img/mute-02.svg"
+        muteImage.src = "assets/img/mute-02.svg"
         muted = false
     }
     else{
         video.muted = true
-        muteImage.src = "../assets/img/mute-01.svg"
+        muteImage.src = "assets/img/mute-01.svg"
         muted = true
     }
 }
