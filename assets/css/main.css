@@ -1784,7 +1784,9 @@ i.ii{
 
 /* ................... */
 
-.sidee{width: 160px; border-radius: 6px;overflow: hidden;}
+.sidee{width: 160px; 
+    border-radius: 0px;
+    overflow: hidden;}
 
 /* ................. */
 
