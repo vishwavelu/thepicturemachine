@@ -847,8 +847,8 @@ ul.tag-work li:not(:first-child)::before {
     content: '';
     width: 10px;
     height: 10px;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-top: 2px solid #EE5A4D;
+    border-right: 2px solid #EE5A4D;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
@@ -859,8 +859,8 @@ ul.tag-work li:not(:first-child)::before {
     width: 10px;
     height: 10px;
     margin-top: -4px;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-top: 2px solid #EE5A4D;
+    border-right: 2px solid #EE5A4D;
     -webkit-transform: rotate(134deg);
     transform: rotate(134deg);
 }
@@ -1108,7 +1108,7 @@ button {
 .dash {
     height: 2px;
     width: 50px;
-    background: #fff;
+    background: #EE5A4D;
     transform: translateX(-50%);
     left: 50%;
     position: absolute;
@@ -1144,7 +1144,7 @@ button {
     transform: translateX(-50%);
     left: 50%;
     margin-top: 10px;
-    background: #fff;
+    background: #EE5A4D;
 }
 
 .service-item {
@@ -1291,9 +1291,12 @@ p.author-text {
 -----------------------------------------------------------------*/
 
 .strokes span {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    /* -webkit-text-stroke: 1px #fff; */
+    transition: all .3s ease;
 }
+
+.strokes span:hover{letter-spacing: 4px;}
 
 .next-page {
     background: #181818;
@@ -1306,7 +1309,7 @@ p.author-text {
     font-family: 'Khula', sans-serif;
     color: #fff;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     /* font-style: italic; */
 }
 
@@ -1725,7 +1728,7 @@ h2 .head-text.fontt{font-family: 'poppins'; font-weight: 500;}
 
 /* ..................... */
 
-.title{margin-top: 100px;}
+.title{margin-top: 20px;}
 
 /* .............. */
 
@@ -1758,10 +1761,17 @@ i.ii{
   border: 2px solid gray;
   padding: 0.6em 0.8em;
   }
+ 
 
-.backk{position: fixed; left: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;}
 
-.backkk{position: fixed; right: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;}
+.backk{position: fixed; left: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
+
+.backkk{position: fixed; right: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
+
+.backk:hover,
+.backkk:hover{opacity: 100%;}
+
+
 
 /* .................. */
 
