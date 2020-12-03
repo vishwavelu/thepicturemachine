@@ -95,11 +95,11 @@
         display: none;
     }
     .next-page h3 a {
-        font-family: 'Playfair Display', serif;
+        /* font-family: 'Playfair Display', serif; */
         color: #fff;
-        font-weight: 900;
+        font-weight: 700;
         font-size: 40px;
-        font-style: italic;
+        /* font-style: italic; */
     }
     .detailes h3 {
         font-size: 20px;
@@ -183,11 +183,11 @@ height: auto;} */
         display: none;
     }
     .next-page h3 a {
-        font-family: 'Playfair Display', serif;
+        /* font-family: 'Playfair Display', serif; */
         color: #fff;
-        font-weight: 900;
+        font-weight: 700;
         font-size: 50px;
-        font-style: italic;
+        /* font-style: italic; */
     }
     .detailes h3 {
         font-size: 30px;
@@ -244,11 +244,11 @@ height: auto;} */
         display: none;
     }
     .next-page h3 a {
-        font-family: 'Playfair Display', serif;
+        /* font-family: 'Playfair Display', serif; */
         color: #fff;
-        font-weight: 900;
+        font-weight: 700;
         font-size: 60px;
-        font-style: italic;
+        /* font-style: italic; */
     }
     .detailes h3 {
         font-size: 40px;

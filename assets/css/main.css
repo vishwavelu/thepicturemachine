@@ -831,7 +831,8 @@ ul.tag-work li:not(:first-child)::before {
 }
 
 .up-down .circle:hover {
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 2px solid rgba(238, 90, 77, .5);
+    /* border: 2px solid rgba(255, 255, 255, .5); */
 }
 
 .up-down .circle .arrow {
@@ -1764,9 +1765,9 @@ i.ii{
  
 
 
-.backk{position: fixed; left: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
+.backk{ left: 40px;  color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
 
-.backkk{position: fixed; right: 40px; top: 50%; color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
+.backkk{ right: 40px;  color: #fff; font-size: 20px;z-index: 1;opacity: 50%;transition: all .3s ease;}
 
 .backk:hover,
 .backkk:hover{opacity: 100%;}
