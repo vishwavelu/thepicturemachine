@@ -1300,7 +1300,7 @@ p.author-text {
 .strokes span:hover{letter-spacing: 4px;}
 
 .next-page {
-    background: #181818;
+    /* background: #181818; */
     height: 200px;
     padding-bottom: 200px;
     padding-top: 100px;
@@ -1546,6 +1546,8 @@ textarea {
     /* margin: 0 auto; */
     top: 0px;
     }
+.spotm{display: none;}
+
 }
 @media (min-width: 767px) and (max-width: 1400px){
 .abouttitle{
@@ -1554,6 +1556,9 @@ transform: translate(0, -300%)!important;
 /* margin: 0 auto; */
 top: 0px;
 }
+
+.spotm{display: none;}
+
 }
 .title11{
 position: relative;
@@ -1608,6 +1613,10 @@ position: relative;
     .head-text.head-textt{text-shadow: 1px 1px #0F6970;}
 
     .sound{display: none;}
+
+    .spot{display: none;}
+
+    .spota{width: 100%;}
  
 }
 
@@ -1618,7 +1627,7 @@ position: relative;
         object-fit: cover;
       }
 
-      
+      .spota{height: 100vh;} 
 
 }
 
@@ -1827,3 +1836,19 @@ i.ii{
         border: 2px solid #fff;
       
       } */
+
+      /* spott */
+
+     
+
+      .single-project-img.about-us-text.spotb{margin-top: 100px;}
+      .container.spotc{max-width: 1200px;}
+
+      .spot{max-width: 100%;position: relative; bottom: 0%;}
+      .spott{max-width: 1200px; height: 200px;}
+      .spottt{padding-top: 40px;}
+      .link.load-marmoset.spotttt{font-size: 24px; font-weight: 400;}
+      .spot2{position: relative; right: 0;}
+      .spot3{right: 0px; position: absolute;}
+
+    
