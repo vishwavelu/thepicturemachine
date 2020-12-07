@@ -1306,7 +1306,7 @@ p.author-text {
     padding-top: 100px;
 }
 
-.next-page h3 a {
+.next-page.cont h3 a {
     font-family: 'Khula', sans-serif;
     color: #fff;
     font-weight: 700;
@@ -1538,6 +1538,10 @@ textarea {
     z-index: 1;
     bottom: 0;
 }
+
+@media only screen and (min-width: 992px){ .spotm{display: none;}.spota{height: 100vh;} }
+@media only screen and (max-width: 991.98px){ .spot{display: none;}.spota{width: 100%;}}
+
 @media (min-width: 1400px) and (max-width: 3000px)
 {
     .abouttitle{
@@ -1546,7 +1550,7 @@ textarea {
     /* margin: 0 auto; */
     top: 0px;
     }
-.spotm{display: none;}
+
 
 }
 @media (min-width: 767px) and (max-width: 1400px){
@@ -1557,7 +1561,7 @@ transform: translate(0, -300%)!important;
 top: 0px;
 }
 
-.spotm{display: none;}
+
 
 }
 .title11{
@@ -1616,7 +1620,7 @@ position: relative;
 
     .spot{display: none;}
 
-    .spota{width: 100%;}
+    
  
 }
 
@@ -1627,7 +1631,7 @@ position: relative;
         object-fit: cover;
       }
 
-      .spota{height: 100vh;} 
+      
 
 }
 
@@ -1851,4 +1855,7 @@ i.ii{
       .spot2{position: relative; right: 0;}
       .spot3{right: 0px; position: absolute;}
 
-    
+      .link.load-marmoset.spotttt {
+        font-size: 24px;
+        font-weight: 400;
+    }

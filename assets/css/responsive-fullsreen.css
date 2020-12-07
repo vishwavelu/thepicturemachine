@@ -94,7 +94,14 @@
     .copyright {
         display: none;
     }
-    .next-page h3 a {
+
+
+  .next-page h3 a.link.load-marmoset.spotttt {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .next-page.cont h3 a {
         /* font-family: 'Playfair Display', serif; */
         color: #fff;
         font-weight: 700;
@@ -182,7 +189,14 @@ height: auto;} */
     .copyright {
         display: none;
     }
-    .next-page h3 a {
+
+    .next-page h3 a.link.load-marmoset.spotttt {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+
+    .next-page.cont h3 a {
         /* font-family: 'Playfair Display', serif; */
         color: #fff;
         font-weight: 700;
@@ -243,7 +257,14 @@ height: auto;} */
     .copyright {
         display: none;
     }
-    .next-page h3 a {
+
+    .next-page h3 a.link.load-marmoset.spotttt {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+
+    .next-page.cont h3 a {
         /* font-family: 'Playfair Display', serif; */
         color: #fff;
         font-weight: 700;
