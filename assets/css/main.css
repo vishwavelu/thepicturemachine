@@ -671,30 +671,30 @@ body {
 }
 
  .project-0 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 } 
 
 .project-1 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 .project-2 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 
 .project-3 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 
 .project-4 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 
 .project-5 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 .para{
@@ -704,7 +704,7 @@ body {
     opacity: 75%;
 }
 .project-6 {
-    background: url('assets/img/poster.png') no-repeat;
+    /* background: url('assets/img/poster.png') no-repeat; */
 }
 
 
@@ -1331,7 +1331,7 @@ p.author-text {
 -----------------------------------------------------------------*/
 
 .project-detail-1 {
-    background: url('assets/img/poster.png') center center no-repeat;
+    /* background: url('assets/img/poster.png') center center no-repeat; */
     background-size: cover;
 }
 
