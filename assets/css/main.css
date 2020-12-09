@@ -552,7 +552,8 @@ a:hover {
 .sociall{position: absolute;
 bottom: 20px;
 z-index: 99;
-left: 50%;}
+/* left: 50%; */
+}
 
 .social ul {
     padding: 0;
@@ -1620,7 +1621,7 @@ position: relative;
 
     .spot{display: none;}
 
-    
+    .sociall{margin-bottom: 40px; left: auto;}
  
 }
 
