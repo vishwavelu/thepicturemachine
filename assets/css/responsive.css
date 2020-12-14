@@ -44,7 +44,7 @@
         width: 100%;
         transform: translateX(-50%) translateY(0);
         left: 50%;
-        text-align: center;
+        text-align:  center;
         z-index: 3;
         /* bottom: 10%; */
         top: 400px;
