@@ -46,7 +46,8 @@
         left: 50%;
         text-align: center;
         z-index: 3;
-        bottom: 10%;
+        /* bottom: 10%; */
+        top: 400px;
 
     }
 
