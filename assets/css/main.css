@@ -1039,6 +1039,10 @@ button {
 /* ----------------------------------------------------------------
                          [ 04 About ]
 -----------------------------------------------------------------*/
+
+
+
+
 .about {
     position: fixed;
     width: 100%;
@@ -1598,6 +1602,10 @@ position: relative;
     .social0.sociall{bottom: 100px;}
  
     .project-img{height: 500px;}
+   
+    div.mobilee{position: absolute;}
+
+    .about.about-bg.centered{background-image: none;}
     
 }
 
@@ -1610,6 +1618,7 @@ position: relative;
 
      .sociall.socialll{display: none;}
 
+     div.mobilee{display: none;}
 }
 
 /* arrow animation */
