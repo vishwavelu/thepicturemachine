@@ -1607,6 +1607,8 @@ position: relative;
 
     .about.about-bg.centered{background-image: none;}
     
+    .conmob{position: relative; bottom: 160px;}
+
 }
 
 @media only screen and (min-width: 650px){
