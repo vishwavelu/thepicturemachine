@@ -1627,6 +1627,13 @@ textarea {
 
 @media only screen and (min-width: 992px){ .spotm{display: none;}.spota{height: 100vh;}}
 @media only screen and (max-width: 991.98px){ .spot{display: none;}.spota{width: 100%;}}
+@media only screen and (max-width: 1350px){
+    .container.fixed-bottom.spott{height: 170px;}
+
+    .col-lg-8.mt-m.mb-20.sep.aos-init.aos-animate{padding-right: 60px;}
+
+    
+}
 
 @media (min-width: 1400px) and (max-width: 3000px)
 {
@@ -1678,6 +1685,8 @@ position: relative;
     z-index: 1;
     bottom: 0;
 }
+
+
 
 
 @media only screen and (max-width: 650px) {
@@ -1915,6 +1924,9 @@ i.ii{
 
 /* ................. */
 
+
+.toph{font-size: 32px; margin-top: 0px;margin-bottom: 0;}
+p.tophh{margin-top: 0;}
 
 
 
